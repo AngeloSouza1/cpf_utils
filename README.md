@@ -21,4 +21,16 @@ Ou instalar diretamente sem um Gemfile:
 gem install cpf_utils
 ```
 
+Utilizar a formatação de CPF
+```rubby
+cpf = "11144477735"
+formatado = CpfUtils::formatar(cpf)
+# retorno de "111.444.777-35"
+```
 
+Utilizar a validação de CPF
+```rubby
+cpf = "11144477735"
+formatado = CpfUtils::cpf_vlido?(cpf)
+# retorno de true
+```

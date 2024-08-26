@@ -24,7 +24,7 @@ RSpec.describe CpfUtils do
     end
 
     it "retorna false para um CPF inválido" do
-      expect(CpfUtils.cpf_valido?('123.456.789-09')).to be true
+      expect(CpfUtils.cpf_valido?('123.456.789-00')).to be false
     end
 
     it "retorna false para um CPF com todos os dígitos iguais" do
