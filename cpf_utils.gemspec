@@ -20,8 +20,8 @@ Gem::Specification.new do |spec|
 
   # Remova ou comente essas linhas por enquanto
   # spec.metadata["homepage_uri"] = spec.homepage
-  # spec.metadata["source_code_uri"] = "https://github.com/seu_usuario/cpf_utils"
-  # spec.metadata["changelog_uri"] = "https://github.com/seu_usuario/cpf_utils/CHANGELOG.md"
+    spec.metadata["source_code_uri"] = "https://github.com/AngeloSouza1/cpf_utils"
+    spec.metadata["changelog_uri"] = "https://github.com/AngeloSouza1/cpf_utils/blob/main/CHANGELOG.md"
 
   gemspec = File.basename(__FILE__)
   spec.files = IO.popen(%w[git ls-files -z], chdir: __dir__, err: IO::NULL) do |ls|
